@@ -1,0 +1,73 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+use_frameworks!
+
+workspace 'Modularization.xcworkspace'
+
+############################### dependency
+
+#workspace
+def workspace_pods
+
+  #react
+#  pod 'RXSwift'
+
+end
+
+#main project dependency
+def project_only_pods
+  pod 'SVProgressHUD', '2.0.4'
+end
+
+# network layer dependency
+def network_layer_pods
+  
+#  pod 'Alamofire', '~> 4.5'
+    
+end
+
+########################## main project
+
+target 'Modularization' do
+
+  workspace_pods
+  project_only_pods
+  network_layer_pods
+  
+  target 'ModularizationTests' do
+    inherit! :search_paths
+
+  end
+
+  target 'ModularizationUITests' do
+    inherit! :search_paths
+  end
+
+end
+
+########################### Library
+
+#service
+target 'SCHService' do
+  project 'SCHService/SCHService.xcodeproj'
+  
+  #
+  workspace_pods
+  network_layer_pods
+end
+
+#Base
+target 'SCHBase' do
+  project 'SCHBase/SCHBase.xcodeproj'
+  
+  #
+  workspace_pods
+end
+
+#Core
+target 'SCHCore' do
+  project 'SCHCore/SCHCore.xcodeproj'
+  
+  #
+  workspace_pods
+end

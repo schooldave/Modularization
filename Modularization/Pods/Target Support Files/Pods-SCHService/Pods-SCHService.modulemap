@@ -1,0 +1,6 @@
+framework module Pods_SCHService {
+  umbrella header "Pods-SCHService-umbrella.h"
+
+  export *
+  module * { export * }
+}
