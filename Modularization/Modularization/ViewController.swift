@@ -36,8 +36,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func jumpToBaseController(_ sender: Any) {
-        //open vc for SCHBase
-        
+        //open vc for SCHBase using return of objectHandle
         navigationController?.pushViewController(MGJRouter.object("sch://Base/PushVC", ["text": "from BaseUseObjectHandle"]) as! UIViewController, animated: true)
     }
 }
