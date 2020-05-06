@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		287A8B754EC10F4056D12DDF /* Pods_SCHService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F53023A16267E5641060BE /* Pods_SCHService.framework */; };
+		7B667E1812610253836FA837 /* libPods-SCHService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA70063B01AF79D86BC2FD3 /* libPods-SCHService.a */; };
+		EA3C30332462995800C5DC77 /* SCHServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C30322462995800C5DC77 /* SCHServiceViewController.swift */; };
+		EA3C30342462997600C5DC77 /* SCHServiceViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = EA3C30322462995800C5DC77 /* SCHServiceViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAC58AF9245FF79B00876EDB /* SCHService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC58AEF245FF79B00876EDB /* SCHService.framework */; };
 		EAC58AFE245FF79B00876EDB /* SCHServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC58AFD245FF79B00876EDB /* SCHServiceTests.swift */; };
 		EAC58B00245FF79B00876EDB /* SCHService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC58AF2245FF79B00876EDB /* SCHService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,8 +27,9 @@
 
 /* Begin PBXFileReference section */
 		0C14CAE5DDA1CD097C9DFDBF /* Pods-SCHService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCHService.release.xcconfig"; path = "Target Support Files/Pods-SCHService/Pods-SCHService.release.xcconfig"; sourceTree = "<group>"; };
+		1BA70063B01AF79D86BC2FD3 /* libPods-SCHService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCHService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FEF6E72E0148CBB40CC08D /* Pods-SCHService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCHService.debug.xcconfig"; path = "Target Support Files/Pods-SCHService/Pods-SCHService.debug.xcconfig"; sourceTree = "<group>"; };
-		D6F53023A16267E5641060BE /* Pods_SCHService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCHService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3C30322462995800C5DC77 /* SCHServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHServiceViewController.swift; sourceTree = "<group>"; };
 		EAC58AEF245FF79B00876EDB /* SCHService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCHService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC58AF2245FF79B00876EDB /* SCHService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHService.h; sourceTree = "<group>"; };
 		EAC58AF3245FF79B00876EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287A8B754EC10F4056D12DDF /* Pods_SCHService.framework in Frameworks */,
+				7B667E1812610253836FA837 /* libPods-SCHService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +61,7 @@
 		0A8F727EF9302A614F9E450E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6F53023A16267E5641060BE /* Pods_SCHService.framework */,
+				1BA70063B01AF79D86BC2FD3 /* libPods-SCHService.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EAC58AF2245FF79B00876EDB /* SCHService.h */,
+				EA3C30322462995800C5DC77 /* SCHServiceViewController.swift */,
 				EAC58AF3245FF79B00876EDB /* Info.plist */,
 			);
 			path = SCHService;
@@ -118,6 +122,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C30342462997600C5DC77 /* SCHServiceViewController.swift in Headers */,
 				EAC58B00245FF79B00876EDB /* SCHService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +179,7 @@
 				TargetAttributes = {
 					EAC58AEE245FF79B00876EDB = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					EAC58AF7245FF79B00876EDB = {
 						CreatedOnToolsVersion = 11.4;
@@ -246,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C30332462995800C5DC77 /* SCHServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7FEF6E72E0148CBB40CC08D /* Pods-SCHService.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
@@ -400,6 +408,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SCHService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = schooldave.SCHService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -418,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C14CAE5DDA1CD097C9DFDBF /* Pods-SCHService.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
@@ -426,6 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SCHService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +455,7 @@
 		EAC58B07245FF79B00876EDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
 				INFOPLIST_FILE = SCHServiceTests/Info.plist;
@@ -461,6 +474,7 @@
 		EAC58B08245FF79B00876EDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
 				INFOPLIST_FILE = SCHServiceTests/Info.plist;

@@ -1,16 +1,28 @@
 PODS:
+  - MGJRouter_Swift (0.1.2)
   - SVProgressHUD (2.0.4)
 
 DEPENDENCIES:
+  - MGJRouter_Swift (from `https://github.com/821385843/MGJRouter_Swift.git`)
   - SVProgressHUD (= 2.0.4)
 
 SPEC REPOS:
   trunk:
     - SVProgressHUD
 
+EXTERNAL SOURCES:
+  MGJRouter_Swift:
+    :git: https://github.com/821385843/MGJRouter_Swift.git
+
+CHECKOUT OPTIONS:
+  MGJRouter_Swift:
+    :commit: 3413a09df3454030917adf152557d03d80be9cf8
+    :git: https://github.com/821385843/MGJRouter_Swift.git
+
 SPEC CHECKSUMS:
+  MGJRouter_Swift: 2c44fffce704d4b83f187398d9c2b9a6baa2ae6a
   SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
 
-PODFILE CHECKSUM: b5aaa6fa93670bb58b460cec1b9a3bd7ad75d113
+PODFILE CHECKSUM: d44f33b14a03f09b80aa62de6861e852666e1f5d
 
 COCOAPODS: 1.9.1

@@ -1,4 +1,4 @@
-framework module Pods_SCHCore {
+module Pods_SCHCore {
   umbrella header "Pods-SCHCore-umbrella.h"
 
   export *

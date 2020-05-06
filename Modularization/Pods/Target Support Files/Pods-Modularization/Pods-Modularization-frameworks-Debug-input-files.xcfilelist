@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Modularization/Pods-Modularization-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MGJRouter_Swift/MGJRouter_Swift.framework
 ${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework

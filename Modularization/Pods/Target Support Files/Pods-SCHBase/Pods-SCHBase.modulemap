@@ -1,4 +1,4 @@
-framework module Pods_SCHBase {
+module Pods_SCHBase {
   umbrella header "Pods-SCHBase-umbrella.h"
 
   export *

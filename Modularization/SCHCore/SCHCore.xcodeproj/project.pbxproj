@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9431C95AB982CDB6307D3A8E /* Pods_SCHCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30991F21302F12C5EF1D733E /* Pods_SCHCore.framework */; };
+		323295DC15254EF524E63BF4 /* libPods-SCHCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE6EA97C8FCD3BEBBA47374 /* libPods-SCHCore.a */; };
+		EA3C30362462B50700C5DC77 /* SCHCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C30352462B50700C5DC77 /* SCHCoreViewController.swift */; };
+		EA3C30372462B72C00C5DC77 /* SCHCoreViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = EA3C30352462B50700C5DC77 /* SCHCoreViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAC58AD5245FF78500876EDB /* SCHCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC58ACB245FF78500876EDB /* SCHCore.framework */; };
 		EAC58ADA245FF78500876EDB /* SCHCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC58AD9245FF78500876EDB /* SCHCoreTests.swift */; };
 		EAC58ADC245FF78500876EDB /* SCHCore.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC58ACE245FF78500876EDB /* SCHCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30991F21302F12C5EF1D733E /* Pods_SCHCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCHCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A2A336AE25E81E9698DAD3 /* Pods-SCHCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCHCore.debug.xcconfig"; path = "Target Support Files/Pods-SCHCore/Pods-SCHCore.debug.xcconfig"; sourceTree = "<group>"; };
 		BB8787E50C60290806A97CBB /* Pods-SCHCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCHCore.release.xcconfig"; path = "Target Support Files/Pods-SCHCore/Pods-SCHCore.release.xcconfig"; sourceTree = "<group>"; };
+		EA3C30352462B50700C5DC77 /* SCHCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHCoreViewController.swift; sourceTree = "<group>"; };
 		EAC58ACB245FF78500876EDB /* SCHCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCHCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC58ACE245FF78500876EDB /* SCHCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHCore.h; sourceTree = "<group>"; };
 		EAC58ACF245FF78500876EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 		EAC58AD9245FF78500876EDB /* SCHCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHCoreTests.swift; sourceTree = "<group>"; };
 		EAC58ADB245FF78500876EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC58B33245FF82700876EDB /* SCHCoreSettting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHCoreSettting.swift; sourceTree = "<group>"; };
+		EFE6EA97C8FCD3BEBBA47374 /* libPods-SCHCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCHCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9431C95AB982CDB6307D3A8E /* Pods_SCHCore.framework in Frameworks */,
+				323295DC15254EF524E63BF4 /* libPods-SCHCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +74,7 @@
 		5C9F3BCC8ED71E31FFBFA1C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30991F21302F12C5EF1D733E /* Pods_SCHCore.framework */,
+				EFE6EA97C8FCD3BEBBA47374 /* libPods-SCHCore.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,6 +105,7 @@
 				EAC58ACE245FF78500876EDB /* SCHCore.h */,
 				EAC58ACF245FF78500876EDB /* Info.plist */,
 				EAC58B33245FF82700876EDB /* SCHCoreSettting.swift */,
+				EA3C30352462B50700C5DC77 /* SCHCoreViewController.swift */,
 			);
 			path = SCHCore;
 			sourceTree = "<group>";
@@ -122,6 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C30372462B72C00C5DC77 /* SCHCoreViewController.swift in Headers */,
 				EAC58B35245FF8CA00876EDB /* SCHCoreSettting.swift in Headers */,
 				EAC58ADC245FF78500876EDB /* SCHCore.h in Headers */,
 			);
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C30362462B50700C5DC77 /* SCHCoreViewController.swift in Sources */,
 				EAC58B34245FF82700876EDB /* SCHCoreSettting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +414,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SCHCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +443,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SCHCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

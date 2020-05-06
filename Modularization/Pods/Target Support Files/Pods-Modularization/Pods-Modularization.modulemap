@@ -1,4 +1,4 @@
-framework module Pods_Modularization {
+module Pods_Modularization {
   umbrella header "Pods-Modularization-umbrella.h"
 
   export *

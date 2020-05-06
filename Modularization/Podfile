@@ -1,7 +1,8 @@
 platform :ios, '9.0'
 inhibit_all_warnings!
-use_frameworks!
-
+#use_frameworks!
+use_modular_headers!
+#调试真机ios13.3.1 出现问题 将 use_framework 改为use_modular_headers!
 workspace 'Modularization.xcworkspace'
 
 ############################### dependency
@@ -11,7 +12,7 @@ def workspace_pods
 
   #react
 #  pod 'RXSwift'
-
+pod 'MGJRouter_Swift', :git => 'https://github.com/821385843/MGJRouter_Swift.git'
 end
 
 #main project dependency

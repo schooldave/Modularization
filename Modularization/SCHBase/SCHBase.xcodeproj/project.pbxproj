@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AB34FD9A8C15B9B8A6EF1E2 /* Pods_SCHBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E08EDE46FA5DEC4E5A9ADE /* Pods_SCHBase.framework */; };
+		634D90DDCF3B88A21733B9B5 /* libPods-SCHBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0530E9501DFDC7E5CDB5DFE /* libPods-SCHBase.a */; };
+		EA3C30392462C7FA00C5DC77 /* SCHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C30382462C7FA00C5DC77 /* SCHBaseViewController.swift */; };
+		EA3C303A2462C81E00C5DC77 /* SCHBaseViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = EA3C30382462C7FA00C5DC77 /* SCHBaseViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAC58B1D245FF7BE00876EDB /* SCHBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC58B13245FF7BE00876EDB /* SCHBase.framework */; };
 		EAC58B22245FF7BE00876EDB /* SCHBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC58B21245FF7BE00876EDB /* SCHBaseTests.swift */; };
 		EAC58B24245FF7BE00876EDB /* SCHBase.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC58B16245FF7BE00876EDB /* SCHBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,13 +28,14 @@
 /* Begin PBXFileReference section */
 		327C9674B4161284641E1672 /* Pods-SCHBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCHBase.debug.xcconfig"; path = "Target Support Files/Pods-SCHBase/Pods-SCHBase.debug.xcconfig"; sourceTree = "<group>"; };
 		629EF4065BB6E0A0E0B3ADA0 /* Pods-SCHBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCHBase.release.xcconfig"; path = "Target Support Files/Pods-SCHBase/Pods-SCHBase.release.xcconfig"; sourceTree = "<group>"; };
-		C6E08EDE46FA5DEC4E5A9ADE /* Pods_SCHBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCHBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3C30382462C7FA00C5DC77 /* SCHBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHBaseViewController.swift; sourceTree = "<group>"; };
 		EAC58B13245FF7BE00876EDB /* SCHBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCHBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC58B16245FF7BE00876EDB /* SCHBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHBase.h; sourceTree = "<group>"; };
 		EAC58B17245FF7BE00876EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC58B1C245FF7BE00876EDB /* SCHBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCHBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC58B21245FF7BE00876EDB /* SCHBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHBaseTests.swift; sourceTree = "<group>"; };
 		EAC58B23245FF7BE00876EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0530E9501DFDC7E5CDB5DFE /* libPods-SCHBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCHBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB34FD9A8C15B9B8A6EF1E2 /* Pods_SCHBase.framework in Frameworks */,
+				634D90DDCF3B88A21733B9B5 /* libPods-SCHBase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +71,7 @@
 		3CFCABC4EAF338F96885A39C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6E08EDE46FA5DEC4E5A9ADE /* Pods_SCHBase.framework */,
+				F0530E9501DFDC7E5CDB5DFE /* libPods-SCHBase.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,6 +101,7 @@
 			children = (
 				EAC58B16245FF7BE00876EDB /* SCHBase.h */,
 				EAC58B17245FF7BE00876EDB /* Info.plist */,
+				EA3C30382462C7FA00C5DC77 /* SCHBaseViewController.swift */,
 			);
 			path = SCHBase;
 			sourceTree = "<group>";
@@ -118,6 +122,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C303A2462C81E00C5DC77 /* SCHBaseViewController.swift in Headers */,
 				EAC58B24245FF7BE00876EDB /* SCHBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +179,7 @@
 				TargetAttributes = {
 					EAC58B12245FF7BE00876EDB = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					EAC58B1B245FF7BE00876EDB = {
 						CreatedOnToolsVersion = 11.4;
@@ -246,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C30392462C7FA00C5DC77 /* SCHBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 327C9674B4161284641E1672 /* Pods-SCHBase.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
@@ -400,6 +408,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SCHBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = schooldave.SCHBase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -418,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 629EF4065BB6E0A0E0B3ADA0 /* Pods-SCHBase.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
@@ -426,6 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SCHBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +455,7 @@
 		EAC58B2B245FF7BE00876EDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
 				INFOPLIST_FILE = SCHBaseTests/Info.plist;
@@ -461,6 +474,7 @@
 		EAC58B2C245FF7BE00876EDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JX7P3S6QA2;
 				INFOPLIST_FILE = SCHBaseTests/Info.plist;
