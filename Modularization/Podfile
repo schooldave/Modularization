@@ -9,7 +9,6 @@ workspace 'Modularization.xcworkspace'
 
 #workspace
 def workspace_pods
-
   #react
 #  pod 'RXSwift'
 pod 'MGJRouter_Swift', :git => 'https://github.com/821385843/MGJRouter_Swift.git'

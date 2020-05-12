@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SCHService/SCHService.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:SCHCore/SCHCore.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SCHBase/SCHBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SCHService/SCHService.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Modularization.xcodeproj">

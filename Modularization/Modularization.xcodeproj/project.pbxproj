@@ -10,9 +10,9 @@
 		736C7AE0799D90CFB271F8C1 /* libPods-Modularization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BCBEFFAA2871452946256A /* libPods-Modularization.a */; };
 		74DB0B61D52E56393C990CBF /* libPods-ModularizationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B54E8F2FE09130BA0CDC7BD /* libPods-ModularizationUITests.a */; };
 		EA3C302E246284B100C5DC77 /* GlobalModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C302D246284B100C5DC77 /* GlobalModuleRouter.swift */; };
-		EA9025712461380D0062D9CB /* SCHBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9025702461380D0062D9CB /* SCHBase.framework */; };
-		EA9025732461380D0062D9CB /* SCHCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9025722461380D0062D9CB /* SCHCore.framework */; };
-		EA9025752461380D0062D9CB /* SCHService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9025742461380D0062D9CB /* SCHService.framework */; };
+		EA531D05246AA04B00771CC4 /* SCHBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC58B2D245FF7F400876EDB /* SCHBase.framework */; };
+		EA531D06246AA04B00771CC4 /* SCHCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC58B2F245FF7F400876EDB /* SCHCore.framework */; };
+		EA531D07246AA04B00771CC4 /* SCHService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC58B31245FF7F400876EDB /* SCHService.framework */; };
 		EAC58A4A245FF57700876EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC58A49245FF57700876EDB /* AppDelegate.swift */; };
 		EAC58A4C245FF57700876EDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC58A4B245FF57700876EDB /* SceneDelegate.swift */; };
 		EAC58A4E245FF57700876EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC58A4D245FF57700876EDB /* ViewController.swift */; };
@@ -84,9 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA9025712461380D0062D9CB /* SCHBase.framework in Frameworks */,
-				EA9025732461380D0062D9CB /* SCHCore.framework in Frameworks */,
-				EA9025752461380D0062D9CB /* SCHService.framework in Frameworks */,
+				EA531D05246AA04B00771CC4 /* SCHBase.framework in Frameworks */,
+				EA531D06246AA04B00771CC4 /* SCHCore.framework in Frameworks */,
+				EA531D07246AA04B00771CC4 /* SCHService.framework in Frameworks */,
 				736C7AE0799D90CFB271F8C1 /* libPods-Modularization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
